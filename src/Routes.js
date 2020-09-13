@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import side1 from "./side1";
+import Counter from "./Main/Counter";
 
 function Routes() {
   return(
     <Router>
       <Switch>
-        <Route exact="/" component={side1} />
+        <Route exact="/" component={Counter} />
       </Switch>
     </Router>
   )
