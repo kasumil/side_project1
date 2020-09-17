@@ -17,4 +17,6 @@ export default Logoimg;
 
 const Logo = styled.img`
   width: 100px;
+  height: 24px;
+  background-color: black;
 `;
