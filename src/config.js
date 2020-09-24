@@ -1,0 +1,1 @@
+export const navlist = "http://localhost:3000/data/tesla.json";
