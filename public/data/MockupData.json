@@ -1,0 +1,54 @@
+[
+  {
+    "id":0,
+    "name":"Model 3",
+    "img_src": "https://tesla-cdn.thron.com/delivery/public/image/tesla/51fa8980-f8b8-46c3-a969-bf3ad93fb7fd/bvlatuR/std/3296x1798/CN-D-3",
+    "img_alt":"Red Model 3 parked on weathered concrete in front of a cityscape",
+    "riding":"시승 신청",
+    "order":"주문하기",
+    "detail":"자세히 알아보기"
+  },
+  {
+    "id":1,
+    "name":"Model S",
+    "img_src":"//tesla-cdn.thron.com/delivery/public/image/tesla/bf5ec633-7cc2-4acb-8944-a74816e76f3e/bvlatuR/std/2880x2400/Desktop-ModelS",
+    "img_alt":"Solid black Model S accelerating on an elevated highway",
+    "riding":"시승 신청",
+    "order":"주문하기",
+    "detail":"자세히 알아보기"
+  },
+  {
+    "id":2,
+    "name":"Model X",
+    "img_src":"//tesla-cdn.thron.com/delivery/public/image/tesla/e5c1a384-6ca5-4785-9dd8-23eb0f4b1f7a/bvlatuR/std/2880x2400/Desktop-ModelX",
+    "img_alt":"Pearl white Model X navigating a mountainous road",
+    "riding":"시승 신청",
+    "order":"주문하기",
+    "detail":"자세히 알아보기"
+  },
+  {
+    "id":3,
+    "name":"Model Y",
+    "img_src":"//tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY",
+    "img_alt":"Metallic blue Model Y driving down a hillside highway",
+    "riding":"",
+    "order":"자세히 알아보기",
+    "detail":"뉴스레터 받기"
+  },
+  {
+    "id":4,
+    "name":"태양광과 Powerwall",
+    "img_src":"//tesla-cdn.thron.com/delivery/public/image/tesla/27d0055c-b0bf-476c-b3aa-ec59d314f871/bvlatuR/std/2880x2400/Desktop-SolarPanels",
+    "img_alt":"Ranch style home powered by Tesla solar panels and Powerwall",
+    "riding":"",
+    "order":"자세히 알아보기"
+  },
+  {
+    "footer":
+    {
+      "copyRight1":"Tesla © 2021 개인정보 처리방침 및 법적고지 이용 약관 연락처 채용정보 뉴스레터 받기 새 소식 위치",
+      "copyRight2":"사업자등록번호 : 524-88-00237 | 데이비드존파인스타인, 리리 | 통신판매업신고: 제2016-서울강남-02964호 | 사업자정보확인 | 호스팅제공자: Tesla Inc. | 주소 : 서울특별시 강남구 영동대로 730 | 대표전화 : 080-617-1388 | southkorea@tesla.com",
+      "copyRight3":"사업자정보확인southkorea@tesla.com"
+    }
+  }
+]

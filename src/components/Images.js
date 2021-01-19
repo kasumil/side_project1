@@ -1,14 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
+import Nav from './Nav';
 
 const Images = () => {
+  const [data, setData] = useState();
+
+  useEffect(()=> {
+    fetch(`http://localhost:3000/data/MockupData.json`)
+      .then(res => res.json())
+      .then(res => {
+        setData(res)
+      })
+      .catch (error => {
+        console.log(error);
+      });
+  }, []);
   return(
     <>
+      <Nav />
       <ImagesWrap>
         <ImagesBox>
-          <picture className="images">
-            <img className="imgone" src="https://tesla-cdn.thron.com/delivery/public/image/tesla/51fa8980-f8b8-46c3-a969-bf3ad93fb7fd/bvlatuR/std/3296x1798/CN-D-3" alt="model s"/>
-          </picture>
+          {data && data.map((el, i)=> {
+            console.log(el.img_src)
+            return (
+              <picture className="images" key={i}>
+                <img  className='image'src={el.img_src} alt={el.img_src}  />
+              </picture>
+            );
+          })};
         </ImagesBox>
         <ImageInterface></ImageInterface>
       </ImagesWrap>
@@ -23,14 +42,17 @@ const ImagesWrap = styled.div`
 
 const ImagesBox = styled.section`
   .images {
-    .imgone {
-      width: 100vw;
+    .image {
+      width: 2030px;
+      height: 100%;
       max-width: 2048px;
+      display: flex;
+      justify-content: center;
+      
     }
   }
 `; // 이미지 한개당 섹션
 
 const ImageInterface = styled.div`
   position: sticky;
-  
 `; // 이미지 한개당 인터페이스
